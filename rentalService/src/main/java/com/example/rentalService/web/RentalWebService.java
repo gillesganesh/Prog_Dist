@@ -18,7 +18,7 @@ public class RentalWebService {
     public RentalWebService() {
         // Initialiser quelques voitures pour la démonstration
         cars.add(new Car("11AA22", "Ferrari", 100));
-        cars.add(new Car("33BB44", "Toyota", 50));
+        cars.add(new Car("33BB44", "Mercedes", 50));
         cars.add(new Car("55CC66", "BMW", 80));
     }
 

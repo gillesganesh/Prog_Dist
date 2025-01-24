@@ -21,6 +21,6 @@ jobs:
         working-directory: rentalService
         run: |
           export SHELL=/bin/bash
-          docker build -t rentalservice
+          docker build -t rentalService
           docker images
 

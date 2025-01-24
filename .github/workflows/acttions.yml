@@ -12,9 +12,6 @@ jobs:
         with:
           java-version: '23'
           distribution: 'adopt'
-      - name: Set executable permission for gradlew
-        working-directory: rentalService
-        run: chmod +x gradlew
       - name: Build and test
         working-directory: rentalService
         run: |
@@ -24,6 +21,6 @@ jobs:
         working-directory: rentalService
         run: |
           export SHELL=/bin/bash
-          docker buildx build -t rentalService .
+          docker build -t rentalService
           docker images
 

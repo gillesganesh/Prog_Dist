@@ -12,7 +12,7 @@ jobs:
         with:
           java-version: '23'
           distribution: 'adopt'
-      - name: Set executable permission for gradlew
+      - name: Permission pour gradlew
         working-directory: rentalService
         run: chmod +x gradlew
       - name: Build and test

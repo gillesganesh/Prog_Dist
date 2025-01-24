@@ -22,6 +22,5 @@ jobs:
         run: |
           export SHELL=/bin/bash
           docker build -t rentalService
-          docker run -p 4000:8080 rentalService
-          curl http://localhost:4000/cars
+          docker images
 

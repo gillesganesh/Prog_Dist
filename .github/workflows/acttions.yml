@@ -24,6 +24,6 @@ jobs:
         working-directory: rentalService
         run: |
           export SHELL=/bin/bash
-          docker buildx build -t rentalservice .
+          docker buildx build -t rentalService .
           docker images
 

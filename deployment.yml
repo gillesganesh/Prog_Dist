@@ -19,7 +19,7 @@ spec:
     spec:
       containers:
         - name: rentalservice
-          image: gillesganesh/rentalservice:1
+          image: gillesganesh/rental:1
           imagePullPolicy: Always
           ports:
             - containerPort: 8080
